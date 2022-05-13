@@ -1,0 +1,166 @@
+{
+  "uid" : "e30ba11b3d5b9975",
+  "name" : "test fails on searching and not encountering the expected output",
+  "fullName" : "test fails on searching and not encountering the expected output",
+  "historyId" : "9e48813f4332d5f2e6a8507482561cbf",
+  "time" : {
+    "start" : 1652476795812,
+    "stop" : 1652476808600,
+    "duration" : 12788
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying: Expected to find element: `[class=\"ac_results\"]`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying: Expected to find element: `[class=\"ac_results\"]`, but never found it.\n    [5]</</</<@http://automationpractice.com/__cypress/tests?p=cypress\\integration\\Shop\\shop.spec.js:596:8\n    ../driver/src/cypress/cy.js/create/setRunnable/runnable.fn@http://automationpractice.com/__cypress/runner/cypress_runner.js:168439:45\n    callFn@http://automationpractice.com/__cypress/runner/cypress_runner.js:103425:21\n    ../driver/src/cypress/runner.js/create/onRunnableRun/<@http://automationpractice.com/__cypress/runner/cypress_runner.js:173679:28\n    finallyHandler@http://automationpractice.com/__cypress/runner/cypress_runner.js:6510:23\n    tryCatcher@http://automationpractice.com/__cypress/runner/cypress_runner.js:9956:23\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@http://automationpractice.com/__cypress/runner/cypress_runner.js:7891:31\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@http://automationpractice.com/__cypress/runner/cypress_runner.js:7948:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise0@http://automationpractice.com/__cypress/runner/cypress_runner.js:7993:10\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromises@http://automationpractice.com/__cypress/runner/cypress_runner.js:8073:18\n    _drainQueueStep@http://automationpractice.com/__cypress/runner/cypress_runner.js:4663:12\n    _drainQueue@http://automationpractice.com/__cypress/runner/cypress_runner.js:4656:24\n    ../../node_modules/bluebird/js/release/async.js/</Async.prototype._drainQueues@http://automationpractice.com/__cypress/runner/cypress_runner.js:4672:16\n    ../../node_modules/bluebird/js/release/async.js/</Async/this.drainQueues@http://automationpractice.com/__cypress/runner/cypress_runner.js:4542:14\n    promise callback*schedule@http://automationpractice.com/__cypress/runner/cypress_runner.js:9141:23\n    ../../node_modules/bluebird/js/release/async.js/</Async.prototype._queueTick@http://automationpractice.com/__cypress/runner/cypress_runner.js:4681:14\n    AsyncSettlePromises@http://automationpractice.com/__cypress/runner/cypress_runner.js:4613:10\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._fulfill@http://automationpractice.com/__cypress/runner/cypress_runner.js:8019:19\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._resolveCallback@http://automationpractice.com/__cypress/runner/cypress_runner.js:7811:57\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._resolveFromExecutor/r<@http://automationpractice.com/__cypress/runner/cypress_runner.js:7863:17\n    listener@http://automationpractice.com/__cypress/runner/cypress_runner.js:84251:17\n    ../driver/node_modules/eventemitter2/lib/eventemitter2.js/</EventEmitter.prototype.emit@http://automationpractice.com/__cypress/runner/cypress_runner.js:84331:19\n    ../driver/src/cypress/events.js/extend/events.proxyTo/_loop/parent[fn]@http://automationpractice.com/__cypress/runner/cypress_runner.js:170899:34\n    action@http://automationpractice.com/__cypress/runner/cypress_runner.js:164554:23\n    ../driver/src/cypress/cy.js/create/initialize/<@http://automationpractice.com/__cypress/runner/cypress_runner.js:168080:19\n    dispatch@http://automationpractice.com/__cypress/runner/cypress_runner.js:90364:27\n    ../driver/node_modules/jquery/dist/jquery.js/</add/elemData.handle@http://automationpractice.com/__cypress/runner/cypress_runner.js:90172:28\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying: Expected to find element: `[class=\"ac_results\"]`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying: Expected to find element: `[class=\"ac_results\"]`, but never found it.\n    [5]</</</<@http://automationpractice.com/__cypress/tests?p=cypress\\integration\\Shop\\shop.spec.js:596:8\n    ../driver/src/cypress/cy.js/create/setRunnable/runnable.fn@http://automationpractice.com/__cypress/runner/cypress_runner.js:168439:45\n    callFn@http://automationpractice.com/__cypress/runner/cypress_runner.js:103425:21\n    ../driver/src/cypress/runner.js/create/onRunnableRun/<@http://automationpractice.com/__cypress/runner/cypress_runner.js:173679:28\n    finallyHandler@http://automationpractice.com/__cypress/runner/cypress_runner.js:6510:23\n    tryCatcher@http://automationpractice.com/__cypress/runner/cypress_runner.js:9956:23\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@http://automationpractice.com/__cypress/runner/cypress_runner.js:7891:31\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@http://automationpractice.com/__cypress/runner/cypress_runner.js:7948:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise0@http://automationpractice.com/__cypress/runner/cypress_runner.js:7993:10\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromises@http://automationpractice.com/__cypress/runner/cypress_runner.js:8073:18\n    _drainQueueStep@http://automationpractice.com/__cypress/runner/cypress_runner.js:4663:12\n    _drainQueue@http://automationpractice.com/__cypress/runner/cypress_runner.js:4656:24\n    ../../node_modules/bluebird/js/release/async.js/</Async.prototype._drainQueues@http://automationpractice.com/__cypress/runner/cypress_runner.js:4672:16\n    ../../node_modules/bluebird/js/release/async.js/</Async/this.drainQueues@http://automationpractice.com/__cypress/runner/cypress_runner.js:4542:14\n    promise callback*schedule@http://automationpractice.com/__cypress/runner/cypress_runner.js:9141:23\n    ../../node_modules/bluebird/js/release/async.js/</Async.prototype._queueTick@http://automationpractice.com/__cypress/runner/cypress_runner.js:4681:14\n    AsyncSettlePromises@http://automationpractice.com/__cypress/runner/cypress_runner.js:4613:10\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._fulfill@http://automationpractice.com/__cypress/runner/cypress_runner.js:8019:19\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._resolveCallback@http://automationpractice.com/__cypress/runner/cypress_runner.js:7811:57\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._resolveFromExecutor/r<@http://automationpractice.com/__cypress/runner/cypress_runner.js:7863:17\n    listener@http://automationpractice.com/__cypress/runner/cypress_runner.js:84251:17\n    ../driver/node_modules/eventemitter2/lib/eventemitter2.js/</EventEmitter.prototype.emit@http://automationpractice.com/__cypress/runner/cypress_runner.js:84331:19\n    ../driver/src/cypress/events.js/extend/events.proxyTo/_loop/parent[fn]@http://automationpractice.com/__cypress/runner/cypress_runner.js:170899:34\n    action@http://automationpractice.com/__cypress/runner/cypress_runner.js:164554:23\n    ../driver/src/cypress/cy.js/create/initialize/<@http://automationpractice.com/__cypress/runner/cypress_runner.js:168080:19\n    dispatch@http://automationpractice.com/__cypress/runner/cypress_runner.js:90364:27\n    ../driver/node_modules/jquery/dist/jquery.js/</add/elemData.handle@http://automationpractice.com/__cypress/runner/cypress_runner.js:90172:28\n",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1652476795818,
+        "stop" : 1652476803593,
+        "duration" : 7775
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit undefined -> 302: http://automationpractice.com/index.php",
+        "time" : {
+          "start" : 1652476796129,
+          "stop" : 1652476803593,
+          "duration" : 7464
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "get #search_query_top",
+      "time" : {
+        "start" : 1652476803601,
+        "stop" : 1652476803627,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "type T-shirtt",
+      "time" : {
+        "start" : 1652476803627,
+        "stop" : 1652476804041,
+        "duration" : 414
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get [class=\"ac_results\"]",
+      "time" : {
+        "start" : 1652476804041,
+        "stop" : 1652476808594,
+        "duration" : 4553
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET http://automationpractice.com/index.php?controller=search&q=t-shirtt&limit=10&timestamp=1652476804371&ajaxSearch=1&id_lang=1",
+      "time" : {
+        "start" : 1652476808594,
+        "stop" : 1652476808594,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "name" : "Shop\\shop.spec.js.mp4",
+      "type" : "video/mp4",
+      "size" : 0
+    }, {
+      "uid" : "b210a31773e15495",
+      "name" : "Shop\\shop.spec.js:2022-05-13T21:20:08.072Z",
+      "source" : "b210a31773e15495.png",
+      "type" : "image/png",
+      "size" : 1187490
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Shopping functions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4f19866bceca93c",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying: Expected to find element: `[class=\"ac_results\"]`, but never found it.",
+      "time" : {
+        "start" : 1652476336517,
+        "stop" : 1652476343692,
+        "duration" : 7175
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e30ba11b3d5b9975.json",
+  "parameterValues" : [ ]
+}

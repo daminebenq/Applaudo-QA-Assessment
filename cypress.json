@@ -1,0 +1,8 @@
+{
+  "baseUrl": "http://automationpractice.com/index.php",
+  "testFiles": [
+    "**/**.spec.js"
+  ],
+  "pluginsFile": "./cypress/plugins/index.js",
+  "trashAssetsBeforeRuns": true
+}

@@ -1,0 +1,194 @@
+{
+  "01f01b3279808693e435890bfc1628d7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f34662c8e613d42c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652476767079,
+        "stop" : 1652476774792,
+        "duration" : 7713
+      }
+    } ]
+  },
+  "c52f24e0db116851e2ae80a316a6bc87" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9d6c4dec2e49baa9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652457075407,
+        "stop" : 1652457083264,
+        "duration" : 7857
+      }
+    } ]
+  },
+  "6cac0604dc9660d283dab93e4105dffa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7689356cb54fade9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652476844286,
+        "stop" : 1652476847485,
+        "duration" : 3199
+      }
+    } ]
+  },
+  "a9cec7ef0491d2a5e96ec2b34ea7efab" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f18987febab3758b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652476820767,
+        "stop" : 1652476830492,
+        "duration" : 9725
+      }
+    } ]
+  },
+  "30858b3a4fce72b9a9738ead0a866689" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4c278b59862b3009",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652476786283,
+        "stop" : 1652476795788,
+        "duration" : 9505
+      }
+    } ]
+  },
+  "aaceb82c985b73d56a676c672bab387f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3ac6aafd8c8a647",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652476774840,
+        "stop" : 1652476786184,
+        "duration" : 11344
+      }
+    } ]
+  },
+  "1a6d65f8d8397b510aa84d41d17b04c1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "994b947a3b110075",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652476758656,
+        "stop" : 1652476767004,
+        "duration" : 8348
+      }
+    } ]
+  },
+  "9e48813f4332d5f2e6a8507482561cbf" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e30ba11b3d5b9975",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying: Expected to find element: `[class=\"ac_results\"]`, but never found it.",
+      "time" : {
+        "start" : 1652476795812,
+        "stop" : 1652476808600,
+        "duration" : 12788
+      }
+    } ]
+  },
+  "6405dac7c1649640d797c28a2cabb04b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8e77649ecbd92fbd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652476808703,
+        "stop" : 1652476820445,
+        "duration" : 11742
+      }
+    } ]
+  },
+  "ea1f3f46e20dc79211e969d49c2b8520" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a6e95e478227a704",
+      "status" : "failed",
+      "statusDetails" : "Image was 11.686206060606061% different from saved snapshot with 120514 different pixels.\nSee diff for details: C:\\Users\\damin\\Desktop\\test-automation\\cypress\\snapshots\\Shop\\shop.spec.js\\__diff_output__\\Faded Short Sleeve T-shirts.diff.png",
+      "time" : {
+        "start" : 1652476830528,
+        "stop" : 1652476844245,
+        "duration" : 13717
+      }
+    } ]
+  }
+}

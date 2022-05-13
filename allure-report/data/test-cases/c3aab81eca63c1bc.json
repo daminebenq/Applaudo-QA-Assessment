@@ -1,0 +1,283 @@
+{
+  "uid" : "c3aab81eca63c1bc",
+  "name" : "test fails on not seeing the expected item big picture",
+  "fullName" : "test fails on not seeing the expected item big picture",
+  "historyId" : "ea1f3f46e20dc79211e969d49c2b8520",
+  "time" : {
+    "start" : 1652476365193,
+    "stop" : 1652476378272,
+    "duration" : 13079
+  },
+  "status" : "failed",
+  "statusMessage" : "Image was 11.686206060606061% different from saved snapshot with 120514 different pixels.\nSee diff for details: C:\\Users\\damin\\Desktop\\test-automation\\cypress\\snapshots\\Shop\\shop.spec.js\\__diff_output__\\Faded Short Sleeve T-shirts.diff.png",
+  "statusTrace" : "Error: Image was 11.686206060606061% different from saved snapshot with 120514 different pixels.\nSee diff for details: C:\\Users\\damin\\Desktop\\test-automation\\cypress\\snapshots\\Shop\\shop.spec.js\\__diff_output__\\Faded Short Sleeve T-shirts.diff.png\nmatchImageSnapshot/<@http://automationpractice.com/__cypress/tests?p=cypress\\support\\index.js:10605:17\ngetRet@http://automationpractice.com/__cypress/runner/cypress_runner.js:154280:20\ntryCatcher@http://automationpractice.com/__cypress/runner/cypress_runner.js:9956:23\n../../node_modules/bluebird/js/release/method.js/module.exports/Promise.try@http://automationpractice.com/__cypress/runner/cypress_runner.js:7230:29\nthenFn@http://automationpractice.com/__cypress/runner/cypress_runner.js:154298:20\nthen@http://automationpractice.com/__cypress/runner/cypress_runner.js:154738:21\n../driver/src/cypress/cy.js/create/addCommand/wrapByType/<@http://automationpractice.com/__cypress/runner/cypress_runner.js:168170:21\n../driver/src/cypress/cy.js/create/runCommand/<@http://automationpractice.com/__cypress/runner/cypress_runner.js:167603:15\ntryCatcher@http://automationpractice.com/__cypress/runner/cypress_runner.js:9956:23\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@http://automationpractice.com/__cypress/runner/cypress_runner.js:7891:31\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@http://automationpractice.com/__cypress/runner/cypress_runner.js:7948:18\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseCtx@http://automationpractice.com/__cypress/runner/cypress_runner.js:7985:10\n_drainQueueStep@http://automationpractice.com/__cypress/runner/cypress_runner.js:4667:12\n_drainQueue@http://automationpractice.com/__cypress/runner/cypress_runner.js:4656:24\n../../node_modules/bluebird/js/release/async.js/</Async.prototype._drainQueues@http://automationpractice.com/__cypress/runner/cypress_runner.js:4672:16\n../../node_modules/bluebird/js/release/async.js/</Async/this.drainQueues@http://automationpractice.com/__cypress/runner/cypress_runner.js:4542:14\npromise callback*schedule@http://automationpractice.com/__cypress/runner/cypress_runner.js:9141:23\n../../node_modules/bluebird/js/release/async.js/</Async.prototype._queueTick@http://automationpractice.com/__cypress/runner/cypress_runner.js:4681:14\nAsyncSettlePromises@http://automationpractice.com/__cypress/runner/cypress_runner.js:4613:10\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._fulfill@http://automationpractice.com/__cypress/runner/cypress_runner.js:8019:19\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._resolveCallback@http://automationpractice.com/__cypress/runner/cypress_runner.js:7811:57\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._resolveFromExecutor/r<@http://automationpractice.com/__cypress/runner/cypress_runner.js:7863:17\nfn@http://automationpractice.com/__cypress/runner/cypress_runner.js:164598:18\n../socket/node_modules/socket.io-client/lib/socket.js/Socket.prototype.onack@http://automationpractice.com/__cypress/runner/cypress_runner.js:192387:9\n../socket/node_modules/socket.io-client/lib/socket.js/Socket.prototype.onpacket@http://automationpractice.com/__cypress/runner/cypress_runner.js:192312:12\n../socket/node_modules/component-bind/index.js/module.exports/<@http://automationpractice.com/__cypress/runner/cypress_runner.js:185476:15\n../socket/node_modules/component-emitter/index.js/Emitter.prototype.emit@http://automationpractice.com/__cypress/runner/cypress_runner.js:185618:20\n../socket/node_modules/socket.io-client/lib/manager.js/Manager.prototype.ondecoded@http://automationpractice.com/__cypress/runner/cypress_runner.js:191802:8\n../socket/node_modules/component-bind/index.js/module.exports/<@http://automationpractice.com/__cypress/runner/cypress_runner.js:185476:15\n../socket/node_modules/component-emitter/index.js/Emitter.prototype.emit@http://automationpractice.com/__cypress/runner/cypress_runner.js:185618:20\n../socket/node_modules/socket.io-circular-parser/index.js/Decoder.prototype.add@http://automationpractice.com/__cypress/runner/cypress_runner.js:190450:12\n../socket/node_modules/socket.io-client/lib/manager.js/Manager.prototype.ondata@http://automationpractice.com/__cypress/runner/cypress_runner.js:191792:16\n../socket/node_modules/component-bind/index.js/module.exports/<@http://automationpractice.com/__cypress/runner/cypress_runner.js:185476:15\n../socket/node_modules/engine.io-client/node_modules/component-emitter/index.js/Emitter.prototype.emit@http://automationpractice.com/__cypress/runner/cypress_runner.js:188095:20\n../socket/node_modules/engine.io-client/lib/socket.js/Socket.prototype.onPacket@http://automationpractice.com/__cypress/runner/cypress_runner.js:186162:14\n../socket/node_modules/engine.io-client/lib/socket.js/Socket.prototype.setTransport/<@http://automationpractice.com/__cypress/runner/cypress_runner.js:185979:10\n../socket/node_modules/engine.io-client/node_modules/component-emitter/index.js/Emitter.prototype.emit@http://automationpractice.com/__cypress/runner/cypress_runner.js:188095:20\n../socket/node_modules/engine.io-client/lib/transport.js/Transport.prototype.onPacket@http://automationpractice.com/__cypress/runner/cypress_runner.js:186605:8\n../socket/node_modules/engine.io-client/lib/transport.js/Transport.prototype.onData@http://automationpractice.com/__cypress/runner/cypress_runner.js:186597:8\n../socket/node_modules/engine.io-client/lib/transports/websocket.js/</WS.prototype.addEventListeners/this.ws.onmessage@http://automationpractice.com/__cypress/runner/cypress_runner.js:187758:10\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Image was 11.686206060606061% different from saved snapshot with 120514 different pixels.\nSee diff for details: C:\\Users\\damin\\Desktop\\test-automation\\cypress\\snapshots\\Shop\\shop.spec.js\\__diff_output__\\Faded Short Sleeve T-shirts.diff.png",
+    "statusTrace" : "Error: Image was 11.686206060606061% different from saved snapshot with 120514 different pixels.\nSee diff for details: C:\\Users\\damin\\Desktop\\test-automation\\cypress\\snapshots\\Shop\\shop.spec.js\\__diff_output__\\Faded Short Sleeve T-shirts.diff.png\nmatchImageSnapshot/<@http://automationpractice.com/__cypress/tests?p=cypress\\support\\index.js:10605:17\ngetRet@http://automationpractice.com/__cypress/runner/cypress_runner.js:154280:20\ntryCatcher@http://automationpractice.com/__cypress/runner/cypress_runner.js:9956:23\n../../node_modules/bluebird/js/release/method.js/module.exports/Promise.try@http://automationpractice.com/__cypress/runner/cypress_runner.js:7230:29\nthenFn@http://automationpractice.com/__cypress/runner/cypress_runner.js:154298:20\nthen@http://automationpractice.com/__cypress/runner/cypress_runner.js:154738:21\n../driver/src/cypress/cy.js/create/addCommand/wrapByType/<@http://automationpractice.com/__cypress/runner/cypress_runner.js:168170:21\n../driver/src/cypress/cy.js/create/runCommand/<@http://automationpractice.com/__cypress/runner/cypress_runner.js:167603:15\ntryCatcher@http://automationpractice.com/__cypress/runner/cypress_runner.js:9956:23\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@http://automationpractice.com/__cypress/runner/cypress_runner.js:7891:31\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@http://automationpractice.com/__cypress/runner/cypress_runner.js:7948:18\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseCtx@http://automationpractice.com/__cypress/runner/cypress_runner.js:7985:10\n_drainQueueStep@http://automationpractice.com/__cypress/runner/cypress_runner.js:4667:12\n_drainQueue@http://automationpractice.com/__cypress/runner/cypress_runner.js:4656:24\n../../node_modules/bluebird/js/release/async.js/</Async.prototype._drainQueues@http://automationpractice.com/__cypress/runner/cypress_runner.js:4672:16\n../../node_modules/bluebird/js/release/async.js/</Async/this.drainQueues@http://automationpractice.com/__cypress/runner/cypress_runner.js:4542:14\npromise callback*schedule@http://automationpractice.com/__cypress/runner/cypress_runner.js:9141:23\n../../node_modules/bluebird/js/release/async.js/</Async.prototype._queueTick@http://automationpractice.com/__cypress/runner/cypress_runner.js:4681:14\nAsyncSettlePromises@http://automationpractice.com/__cypress/runner/cypress_runner.js:4613:10\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._fulfill@http://automationpractice.com/__cypress/runner/cypress_runner.js:8019:19\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._resolveCallback@http://automationpractice.com/__cypress/runner/cypress_runner.js:7811:57\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._resolveFromExecutor/r<@http://automationpractice.com/__cypress/runner/cypress_runner.js:7863:17\nfn@http://automationpractice.com/__cypress/runner/cypress_runner.js:164598:18\n../socket/node_modules/socket.io-client/lib/socket.js/Socket.prototype.onack@http://automationpractice.com/__cypress/runner/cypress_runner.js:192387:9\n../socket/node_modules/socket.io-client/lib/socket.js/Socket.prototype.onpacket@http://automationpractice.com/__cypress/runner/cypress_runner.js:192312:12\n../socket/node_modules/component-bind/index.js/module.exports/<@http://automationpractice.com/__cypress/runner/cypress_runner.js:185476:15\n../socket/node_modules/component-emitter/index.js/Emitter.prototype.emit@http://automationpractice.com/__cypress/runner/cypress_runner.js:185618:20\n../socket/node_modules/socket.io-client/lib/manager.js/Manager.prototype.ondecoded@http://automationpractice.com/__cypress/runner/cypress_runner.js:191802:8\n../socket/node_modules/component-bind/index.js/module.exports/<@http://automationpractice.com/__cypress/runner/cypress_runner.js:185476:15\n../socket/node_modules/component-emitter/index.js/Emitter.prototype.emit@http://automationpractice.com/__cypress/runner/cypress_runner.js:185618:20\n../socket/node_modules/socket.io-circular-parser/index.js/Decoder.prototype.add@http://automationpractice.com/__cypress/runner/cypress_runner.js:190450:12\n../socket/node_modules/socket.io-client/lib/manager.js/Manager.prototype.ondata@http://automationpractice.com/__cypress/runner/cypress_runner.js:191792:16\n../socket/node_modules/component-bind/index.js/module.exports/<@http://automationpractice.com/__cypress/runner/cypress_runner.js:185476:15\n../socket/node_modules/engine.io-client/node_modules/component-emitter/index.js/Emitter.prototype.emit@http://automationpractice.com/__cypress/runner/cypress_runner.js:188095:20\n../socket/node_modules/engine.io-client/lib/socket.js/Socket.prototype.onPacket@http://automationpractice.com/__cypress/runner/cypress_runner.js:186162:14\n../socket/node_modules/engine.io-client/lib/socket.js/Socket.prototype.setTransport/<@http://automationpractice.com/__cypress/runner/cypress_runner.js:185979:10\n../socket/node_modules/engine.io-client/node_modules/component-emitter/index.js/Emitter.prototype.emit@http://automationpractice.com/__cypress/runner/cypress_runner.js:188095:20\n../socket/node_modules/engine.io-client/lib/transport.js/Transport.prototype.onPacket@http://automationpractice.com/__cypress/runner/cypress_runner.js:186605:8\n../socket/node_modules/engine.io-client/lib/transport.js/Transport.prototype.onData@http://automationpractice.com/__cypress/runner/cypress_runner.js:186597:8\n../socket/node_modules/engine.io-client/lib/transports/websocket.js/</WS.prototype.addEventListeners/this.ws.onmessage@http://automationpractice.com/__cypress/runner/cypress_runner.js:187758:10\n",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1652476365195,
+        "stop" : 1652476369864,
+        "duration" : 4669
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit undefined -> 302: http://automationpractice.com/index.php",
+        "time" : {
+          "start" : 1652476365385,
+          "stop" : 1652476369864,
+          "duration" : 4479
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "contains Printed Summer Dress",
+      "time" : {
+        "start" : 1652476369867,
+        "stop" : 1652476369891,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1652476369891,
+        "stop" : 1652476370149,
+        "duration" : 258
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "page load --waiting for new page to load--",
+      "time" : {
+        "start" : 1652476370148,
+        "stop" : 1652476370148,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "new url http://automationpractice.com/index.php?id_product=5&controller=product",
+      "time" : {
+        "start" : 1652476370149,
+        "stop" : 1652476375340,
+        "duration" : 5191
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "screenshot {capture: fullPage}",
+      "time" : {
+        "start" : 1652476375340,
+        "stop" : 1652476375340,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get img[id=\"bigpic\"]",
+      "time" : {
+        "start" : 1652476375341,
+        "stop" : 1652476375352,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "scrollIntoView",
+      "time" : {
+        "start" : 1652476375352,
+        "stop" : 1652476375363,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "matchImageSnapshot (\"Faded Short Sleeve T-shirts\"; \"[Object]\")",
+      "time" : {
+        "start" : 1652476375363,
+        "stop" : 1652476378264,
+        "duration" : 2901
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "task Matching image snapshot, Object{3}",
+        "time" : {
+          "start" : 1652476375364,
+          "stop" : 1652476375401,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "screenshot Faded Short Sleeve T-shirts",
+        "time" : {
+          "start" : 1652476375401,
+          "stop" : 1652476376107,
+          "duration" : 706
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "task Recording snapshot result",
+        "time" : {
+          "start" : 1652476376107,
+          "stop" : 1652476376235,
+          "duration" : 128
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "then function(){}",
+        "time" : {
+          "start" : 1652476378262,
+          "stop" : 1652476378262,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 4
+    } ],
+    "attachments" : [ {
+      "name" : "Shop\\shop.spec.js.mp4",
+      "type" : "video/mp4",
+      "size" : 0
+    }, {
+      "uid" : "895dd6a867d8a6d2",
+      "name" : "Shop\\shop.spec.js:2022-05-13T21:12:54.489Z",
+      "source" : "895dd6a867d8a6d2.png",
+      "type" : "image/png",
+      "size" : 366066
+    }, {
+      "uid" : "7bf1ceeef3569481",
+      "name" : "Faded Short Sleeve T-shirts",
+      "source" : "7bf1ceeef3569481.png",
+      "type" : "image/png",
+      "size" : 457717
+    }, {
+      "uid" : "7db06a97aadbce5f",
+      "name" : "Shop\\shop.spec.js:2022-05-13T21:12:57.791Z",
+      "source" : "7db06a97aadbce5f.png",
+      "type" : "image/png",
+      "size" : 419039
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 4,
+    "hasContent" : true,
+    "stepsCount" : 14
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Shopping functions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c3aab81eca63c1bc.json",
+  "parameterValues" : [ ]
+}

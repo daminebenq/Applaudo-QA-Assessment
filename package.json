@@ -1,0 +1,37 @@
+{
+  "name": "applaudo-cypress-assessment-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.jsx",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cy:run": "cypress run --config video=true --env allure=true --browser firefox",
+    "allure:generate": "npx allure generate ./allure-results --clean",
+    "allure:open": "npx allure open ./allure-report"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.26.5",
+    "allure-commandline": "^2.13.8",
+    "cypress": "^4.12.1",
+    "cypress-image-snapshot": "^4.0.1"
+  },
+  "dependencies": {
+    "concurrently": "^7.1.0",
+    "dotenv": "^16.0.1"
+  }
+}
