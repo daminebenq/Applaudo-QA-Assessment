@@ -1,0 +1,51 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying: Expected to find element: `[class=\"ac_results\"]`, but never found it.",
+      "children" : [ {
+        "name" : "test fails on searching and not encountering the expected output",
+        "uid" : "e30ba11b3d5b9975",
+        "parentUid" : "57a533391229db9a3d357372560c29ae",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652476795812,
+          "stop" : 1652476808600,
+          "duration" : 12788
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "57a533391229db9a3d357372560c29ae"
+    }, {
+      "name" : "Image was 11.686206060606061% different from saved snapshot with 120514 different pixels.\nSee diff for details: C:\\Users\\damin\\Desktop\\test-automation\\cypress\\snapshots\\Shop\\shop.spec.js\\__diff_output__\\Faded Short Sleeve T-shirts.diff.png",
+      "children" : [ {
+        "name" : "test fails on not seeing the expected item big picture",
+        "uid" : "a6e95e478227a704",
+        "parentUid" : "866d6972d431ceea71533af26fffd11e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652476830528,
+          "stop" : 1652476844245,
+          "duration" : 13717
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "866d6972d431ceea71533af26fffd11e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

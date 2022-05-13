@@ -1,0 +1,183 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Pages",
+    "children" : [ {
+      "name" : "test succeeds on expected input values",
+      "uid" : "9d6c4dec2e49baa9",
+      "parentUid" : "909b53b9bd0b3a547f219e022d539c49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652457075407,
+        "stop" : 1652457083264,
+        "duration" : 7857
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "909b53b9bd0b3a547f219e022d539c49"
+  }, {
+    "name" : "Shopping functions",
+    "children" : [ {
+      "name" : "test succeeds on adding an item to shopping cart",
+      "uid" : "994b947a3b110075",
+      "parentUid" : "843c78c501e7ee37fda79fdffd9f151f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652476758656,
+        "stop" : 1652476767004,
+        "duration" : 8348
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test succeeds on checking added to cart items matches the expected quantity",
+      "uid" : "f34662c8e613d42c",
+      "parentUid" : "843c78c501e7ee37fda79fdffd9f151f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652476767079,
+        "stop" : 1652476774792,
+        "duration" : 7713
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test succeeds on removing item(s) from cart",
+      "uid" : "b3ac6aafd8c8a647",
+      "parentUid" : "843c78c501e7ee37fda79fdffd9f151f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652476774840,
+        "stop" : 1652476786184,
+        "duration" : 11344
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test succeeds on searching and finding an item",
+      "uid" : "4c278b59862b3009",
+      "parentUid" : "843c78c501e7ee37fda79fdffd9f151f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652476786283,
+        "stop" : 1652476795788,
+        "duration" : 9505
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test fails on searching and not encountering the expected output",
+      "uid" : "e30ba11b3d5b9975",
+      "parentUid" : "843c78c501e7ee37fda79fdffd9f151f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1652476795812,
+        "stop" : 1652476808600,
+        "duration" : 12788
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test fails on searching an item and checking item photo correspondency",
+      "uid" : "8e77649ecbd92fbd",
+      "parentUid" : "843c78c501e7ee37fda79fdffd9f151f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652476808703,
+        "stop" : 1652476820445,
+        "duration" : 11742
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test succeeds on seeing the expected item big picture",
+      "uid" : "f18987febab3758b",
+      "parentUid" : "843c78c501e7ee37fda79fdffd9f151f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652476820767,
+        "stop" : 1652476830492,
+        "duration" : 9725
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test fails on not seeing the expected item big picture",
+      "uid" : "a6e95e478227a704",
+      "parentUid" : "843c78c501e7ee37fda79fdffd9f151f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1652476830528,
+        "stop" : 1652476844245,
+        "duration" : 13717
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test succeeds on store information validation",
+      "uid" : "7689356cb54fade9",
+      "parentUid" : "843c78c501e7ee37fda79fdffd9f151f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652476844286,
+        "stop" : 1652476847485,
+        "duration" : 3199
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "843c78c501e7ee37fda79fdffd9f151f"
+  } ]
+}

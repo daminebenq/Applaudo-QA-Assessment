@@ -1,0 +1,25 @@
+
+# vscode
+client/.vscode/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Test results
+.nyc_output/
+coverage/
+
+# package-lock files
+package-lock.json
+cypress/videos/
+cypress/results/
+.env
