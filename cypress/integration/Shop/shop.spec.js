@@ -46,7 +46,7 @@ describe('Shopping functions', ()=>{
     cy.get('[itemprop="name"]').contains('T-shirt');
   })
 
-  it('test fails on searching and not encountering the expected output', () => {
+  it('test fails on searching and not encountering the expected output ', () => {
     cy.get('#search_query_top').type('T-shirtt');
     cy.get('[class="ac_results"]').contains('T-shirt');
   })
