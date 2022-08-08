@@ -27,11 +27,12 @@ jobs:
 
       - name: Check for outdated branch
         id: resolution
-        uses: GetSidetrack/action-xcodeproj-spm-update@main
+      - uses: actions/checkout@v3
+      - uses: MarcoEidinger/swift-package-dependencies-check@2.1.4
         with:
+          dirtyLabel: 'status: outdated'
           forceResolution: true
           failWhenOutdated: false
-          dirtyLabel: 'status: outdated'
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           commentOnDirty: |
             This pull request is outdated ☹
