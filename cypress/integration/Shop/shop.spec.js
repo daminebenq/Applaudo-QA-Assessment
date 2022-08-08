@@ -59,7 +59,7 @@ describe('Shopping functions', ()=>{
     cy.get('span[class="ajax_cart_quantity"]').contains('12');
   })
 
-  it('test succeeds on seeing the expected item big picture', () => {
+  it('test succeeds on seeing the expected item big picture ', () => {
     cy.contains('Faded Short Sleeve T-shirts').click();
     cy.screenshot({ capture: 'fullPage' });
     cy.get('img[id="bigpic"]').scrollIntoView();
