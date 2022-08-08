@@ -46,12 +46,12 @@ describe('Shopping functions', ()=>{
     cy.get('[itemprop="name"]').contains('T-shirt');
   })
 
-  it('test fails on searching and not encountering the expected output', () => {
+  it('test fails on searching and not encountering  the expected output', () => {
     cy.get('#search_query_top').type('T-shirtt');
     cy.get('[class="ac_results"]').contains('T-shirt');
   })
 
-  it('test fails on searching an item and checking item photo correspondency', () => {
+  it('test fails on searching an  item and checking item photo correspondency', () => {
     cy.contains('Faded Short Sleeve T-shirts').click();
     cy.get('#quantity_wanted').type('2');
     cy.get('#group_1').select('M');
