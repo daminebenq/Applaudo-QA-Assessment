@@ -1,0 +1,36 @@
+name: Merge conflict check
+on:
+  push:
+    branches:
+      - main
+  pull_request_target:
+      types:
+        - opened
+        - synchronize
+        - edited
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for dirty pull requests
+        uses: eps1lon/actions-label-merge-conflict@releases/2.x
+        with:
+          dirtyLabel: 'status: conflict'
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          commentOnDirty: |
+            This pull request has conflicts ☹
+            Please resolve those so we can review the pull request.
+            Thanks.
+
+      - name: Check for outdated branch
+        id: resolution
+        uses: GetSidetrack/action-xcodeproj-spm-update@main
+        with:
+          failWhenOutdated: false
+          dirtyLabel: 'status: outdated'
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          commentOnDirty: |
+            This pull request is outdated ☹
+            Please update the branch with the latest changes.
+            Thanks.
