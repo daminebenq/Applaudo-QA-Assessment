@@ -5,6 +5,7 @@ name: allure-report
             - main
 jobs:
     generate-report:
+        permissions: write-all
         runs-on: ubuntu-latest
         steps:
             - name: Generate Allure report
@@ -14,8 +15,6 @@ jobs:
             - name: Commit report results
               if: always()
               run: |
-                  git config user.email "action@github.com"
-                  git config user.name "GitHub Action"
                   git add allure-report -f
                   git add allure-results -f
                   git commit -m "[chore] autogenerate Allure report" -a
