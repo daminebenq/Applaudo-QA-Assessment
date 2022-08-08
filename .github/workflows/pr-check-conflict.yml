@@ -32,7 +32,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           run: |
-            if [ $(git merge-base @ master) == $(git rev-parse master) ]
+            if [ $(git merge-base @ main) == $(git rev-parse master) ]
             then
               echo "Your branch is up to date."
               exit 0
