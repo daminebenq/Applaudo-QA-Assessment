@@ -29,8 +29,17 @@ jobs:
 
       - name: Check for outdated branch
         id: resolution
-        uses: GetSidetrack/action-xcodeproj-spm-update@main
+        uses: actions/checkout@v2
         with:
+          run: |
+            if [ $(git merge-base @ master) == $(git rev-parse master) ]
+            then
+              echo "Your branch is up to date."
+              exit 0
+            else
+              echo "You need to merge / rebase."
+              exit 1
+            fi
           dirtyLabel: 'status: outdated'
           failWhenOutdated: false
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
