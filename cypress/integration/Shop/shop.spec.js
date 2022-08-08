@@ -19,7 +19,7 @@ describe('Shopping functions', ()=>{
     cy.get('span[class="ajax_cart_quantity"]').contains('1')
   });
 
-  it('test succeeds on checking added to cart items matches the expected quantity', () => {
+  it('test succeeds on checking added to cart items matches the expected   quantity', () => {
     cy.contains('Faded Short Sleeve T-shirts').click();
     cy.get('#quantity_wanted').clear().type('12');
     cy.get('#group_1').select('M');
